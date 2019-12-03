@@ -1,2 +1,2 @@
 # UsersAuth_CodeIgniter
-A simple CRUD project in PHP framework CodeIgniter for user login/registration with connection to MySQL database. Components used: DataTables(plugin) and jQuery(library)
+A simple CRUD project in PHP framework (CodeIgniter). The project allows saving, editing and displaying user login/registration details. Additional components used: DataTables(plugin) | jQuery(library) | MySQL(Database)
