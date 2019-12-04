@@ -245,10 +245,10 @@
 
     		$("#stateNameID").on("change", function(e){
     			var stateID1 = $("#stateNameID").val();
-    			
+    			var timestamp = Number(new Date()); // current time as number
 			// alert(stateID+"<ID");		
 			$.ajax({
-				url: "<?php echo site_url('AppUsers/getAjaxCity');?>",
+				url: "<?php echo site_url('AppUsers/getAjaxCity?');?>"+timestamp,
 				// url: "..",
 				type : "POST",
 				data : {stateID:stateID1},
